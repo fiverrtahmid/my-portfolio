@@ -9,10 +9,11 @@
     display: flex;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-position: bottom left, bottom right;
-    background-size: contain, auto;
+    background-size: 5%, auto;
     background-repeat: no-repeat;
     align-items: baseline;
     justify-content: center;
+    padding-left: 20px;
 }
 
 .nav-container {
@@ -76,9 +77,13 @@ nav ul {
 }
 
 .about-me {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .about-me-inner {
+    max-width: 1160px;
 }
 
 .section-title {
@@ -88,6 +93,9 @@ nav ul {
 }
 
 .about-me-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .info-item {
